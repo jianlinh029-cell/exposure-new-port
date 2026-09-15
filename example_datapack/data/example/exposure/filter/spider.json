@@ -1,0 +1,8 @@
+{
+  "predicate": {
+    "items": "minecraft:spider_eye"
+  },
+  "attachment_texture": "example:textures/gui/filter/spider_eye.png",
+  "attachment_tint": "FFBBAA",
+  "shader": "minecraft:spider"
+}

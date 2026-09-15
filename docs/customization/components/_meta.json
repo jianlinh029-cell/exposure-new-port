@@ -1,0 +1,10 @@
+{
+  "capture_parameters.mdx": {
+    "name": "Capture Parameters",
+    "icon": "TableProperties"
+  },
+  "exposure_identifier.mdx": {
+    "name": "Exposure Identifier",
+    "icon": "Fingerprint"
+  }
+}

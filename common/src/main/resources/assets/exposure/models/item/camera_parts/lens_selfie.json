@@ -1,0 +1,43 @@
+{
+  "parent": "exposure:item/camera_parts/lens",
+  "textures": {
+    "texture": "exposure:item/camera/lens",
+    "particle": "exposure:item/camera/lens"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        3,
+        177,
+        0
+      ],
+      "translation": [
+        0.25,
+        7.5,
+        -15.5
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        0.95
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        3,
+        177,
+        0
+      ],
+      "translation": [
+        0.25,
+        7.5,
+        -15.5
+      ],
+      "scale": [
+        0.95,
+        0.95,
+        0.95
+      ]
+    }
+  }
+}

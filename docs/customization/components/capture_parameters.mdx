@@ -1,0 +1,78 @@
+---
+title: "Capture Parameters"
+---
+
+Controls capture of an exposure image.\
+Used in `/exposure load` and `/exposure expose` commands.
+
+### Structure:
+| Property | Type or Possible Values | Description | Default |
+|-|-|-|-|
+| id | String | Points to the .dat file in `<world>/data/exposures`. | **-required-** |
+| fov | Float(>0) | Sets the fov to this value if specified | - |
+| crop_factor | Float(>0 to 1) | How much an image would be cropped. Camera uses 0.875 | 1.0 |
+| filter | ResourceLocation | Shader that will be used | - |
+| projection | Projection Info (see below) | Image loading properties | - |
+| single_channel | `red`, `green` or `blue` | If `film_type` is `black_and_white`, image will consist of data from single channel | - |
+| film_properties | Film Properties (see below) | Some attributes of the image | - |
+| extra_data | Extra Data (see below) | Additional info sent to the client | - |
+
+All of the properties are optional, except `id`.
+
+### Projection Info
+| Property | Type or Possible Values | Description | Default |
+|-|-|-|-|
+| path | String | File path or URL | **-required-** |
+| mode | `dithered` or `clean` | Controls whether the image would be dithered | dithered |
+
+<br/>
+
+### Film Properties
+
+| Property | Type or Possible Values | Description | Default |
+|-|-|-|-|
+| type | **color** or **black_and_white** | Type of the film | color |
+| frame_size | Integer(1 to 2048) | Resolution of the image | 'default_frame_size' from server config |
+| color_palette | ResourceLocation | Palette that will be used to sample colors | "exposure:map_colors_plus" |
+| style | FilmStyle (see below) | "Editing" of the image | - |
+
+### Film Style
+| Property | Type or Possible Values | Default |
+|-|-|-|
+| sensitivity | Float(-10 to 10) | 0 |
+| contrast | Float(-1 to 1) | 0 |
+| levels | Levels (see below) | - |
+| hsb | HSB (see below) | - |
+| color_balance | ColorBalance (see below) | - |
+| noise | Float (0 to 1) | 0 |
+
+### Levels
+| Property | Type | Default |
+|-|-|-|
+| shadows | Integer(0 to 255) | 0 |
+| midtones | Integer(0 to 255) | 128 |
+| highlights | Integer(0 to 255) | 255 |
+| black | Integer(0 to 255) | 0 |
+| white | Integer(0 to 255) | 255 |
+
+### HSB
+| Property | Type | Default |
+|-|-|-|
+| hue | Float(-1 to 1) | 0 |
+| saturation | Float(-1 to 1) | 0 |
+| brightness | Float(-1 to 1) | 0 |
+
+### ColorBalance
+| Property | Type | Default |
+|-|-|-|
+| red | Float(-1 to 1) | 0 |
+| green | Float(-1 to 1) | 0 |
+| blue | Float(-1 to 1) | 0 |
+
+<br/>
+
+### Extra Data
+| Property | Type or Possible Values | Description | Default |
+|-|-|-|-|
+| shutter_speed | String | Affects brightness of the image | 1/60 |
+| flash | `true` or `false` | Spawns flash particles | false |

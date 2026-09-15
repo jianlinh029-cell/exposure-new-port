@@ -1,0 +1,30 @@
+---
+title: FAQ
+---
+
+### Will the mod be updated to Minecraft 1.XX.X?
+- Depends on a version. Due to time and effort porting and maintaining the mod requires, I've decided to port the mod only to somewhat popular versions (where most people play). Examples are 1.18.2, 1.19.2, 1.20.1, 1.21.1.
+- Backports are not likely.
+---
+### How to **export/save** photographs as images to my PC?
+- Photos are saved to `<instance>/exposures` folder when you inspect a photograph (when screen is opened), but only if you are the author.
+- You can also use `/exposure export` command.
+- [Exposure Catalog](https://modrinth.com/mod/exposure-catalog) also has export options.
+<div name='NOTE' style={{ display: 'inline-block', margin: '2px' }}>
+    <div style={{ display: 'flex', alignItems: 'top', backgroundColor: '#232425', borderRadius: '6px', padding: '8px 12px' }}>
+      <RocketIcon style={{ color: '#F4EFE9', marginRight: '8px' }} width={20} />
+      <span style={{ color: '#F4EFE9', fontSize: '15px' }}>Size of exported images can be changed in config.\
+                                                                     Export command and Catalog will let you choose the size as well.</span>
+    </div>
+</div><br/>
+---
+### My photos appear to have only sky in them, world itself isn't showing!
+In 1.21+ Exposure uses slightly different method of capturing images and it might not work correctly with some mods.
+- Enabling `force_direct_capture` in exposure-client config should fix the issue.
+- And please report this issue using info below:
+---
+### I found a bug!
+- Firstly, determine if that it's a mod conflict by testing with only Exposure (and it's required dependencies) installed, without other mods. Then create an issue on [GitHub](https://github.com/mortuusars/Exposure/issues) providing as much info as possible to help me to determine and fix the issue.
+---
+### Can I suggest a feature?
+- Sure! You can create an issue on [GitHub](https://github.com/mortuusars/Exposure/issues) with your suggestion or write it in my [Discord channel](https://discord.gg/FzHKGDW2et). Or reach me in any other way, whatever you like.

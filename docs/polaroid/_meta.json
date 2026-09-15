@@ -1,0 +1,10 @@
+{
+  "instant_camera.mdx": {
+    "name": "Instant Camera",
+    "icon": "Instagram"
+  },
+  "instant_slide.mdx": {
+    "name": "Instant Slide",
+    "icon": "GalleryVerticalEnd"
+  }
+}

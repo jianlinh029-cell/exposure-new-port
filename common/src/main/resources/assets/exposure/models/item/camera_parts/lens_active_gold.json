@@ -1,0 +1,7 @@
+{
+  "parent": "exposure:item/camera_parts/lens_active",
+  "textures": {
+    "texture": "exposure:item/camera/lens_gold",
+    "particle": "exposure:item/camera/lens_gold"
+  }
+}

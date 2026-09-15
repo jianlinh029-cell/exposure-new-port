@@ -1,0 +1,91 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_gui"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_gold"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_gold_gui"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_active"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_gold_active"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_selfie"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_gold_selfie"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_parts/viewfinder"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_parts/flash"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_parts/lens"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_parts/selfie_stick"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/selfie_stick"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_parts/flash_active"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_parts/lens_active"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_parts/flash_selfie"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_parts/lens_selfie"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_parts/flash_active_gold"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_parts/lens_active_gold"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_parts/flash_selfie_gold"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/camera_parts/lens_selfie_gold"
+      }
+    ]
+  }
+}

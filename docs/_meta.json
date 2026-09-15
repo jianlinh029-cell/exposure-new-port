@@ -1,0 +1,26 @@
+{
+  "content": {
+    "name": "📷 Content",
+    "icon": null
+  },
+  "commands": {
+    "name": "⌨\uFE0F Commands",
+    "icon": null
+  },
+  "customization": {
+    "name": "📦 Datapacks/Modpacks",
+    "icon": null
+  },
+  "for_developers": {
+    "name": "🛠️ For Developers",
+    "icon": null
+  },
+  "polaroid": {
+    "name": "🌈 Polaroid",
+    "icon": null
+  },
+  "faq.mdx": {
+    "name": "❔ FAQ",
+    "icon": null
+  }
+}

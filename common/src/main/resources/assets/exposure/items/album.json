@@ -1,0 +1,23 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/album"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/album_one"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/album_two"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "exposure:item/album_three"
+      }
+    ]
+  }
+}
